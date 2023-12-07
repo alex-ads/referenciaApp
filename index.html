@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Referências Bibliográficas</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">Gerador de Referências Bibliográficas</h1>
+    <form id="referenceForm">
+        <label for="nomeauthor">Nome Autor</label>
+        <input type="text" id="nomeauthor" required>
+
+        <label for="asobrenome">Sobre Nome</label>
+        <input type="text" id="sobrenome" required>
+
+        <label for="title">Título</label>
+        <input type="text" id="title" required>
+
+        <label for="city">Cidade</label>
+        <input type="text" id="city" required>
+
+        <label for="ano">Ano</label>
+        <input type="text" id="ano" required>
+
+        <label for="pg">Páginas</label>
+        <input type="text" id="pg" required>
+
+        <input type="submit" value="Gerar Referência">
+    </form>
+
+    <div class="reference" id="generatedReference"> </div>
+
+</body>
+<script src="./assets/js/action.js"></script>
+
+</html>
